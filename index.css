@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto&display=swap');
+
+.font-family-kaushan{
+    font-family: 'Kaushan Script', cursive;
+    color: var(--primary-color)
+}
+
+body{
+    width: 70%;
+    margin: auto;
+    background-color: var(--xlight-blue);
+}
+
+a{
+    text-decoration: none;
+}
+
+.page-layout{
+}
+
+
+.quiz-navbar{
+    width: 80vw;
+    padding: 5rem;
+}
+
+.quiz-navbar-text{
+    font-size: 6rem
+}
+
+.logo{
+    position: relative;
+}
+.quiz-navbar-text:after{
+    position: absolute;
+    content:"";
+    top: 0.7rem;
+    left: -0.7rem;
+    width: 4rem;
+    height: 4rem;
+    border-left: 4px solid var(--red);
+    border-bottom: 4px solid var(--red);
+}
+
+.quiz-navbar-text:after:after{
+    position: absolute;
+    content:"";
+    top: 1.5rem;
+    left: -0.8rem;
+    width: 4rem;
+    height: 4rem;
+    border-left: 4px solid var(--red);
+    border-bottom: 4px solid var(--red);
+}
+
+.footer{
+    padding-bottom: 2rem;
+    text-align: center;
+    border-top: 1px solid var(--grey)
+}
+
+.footer > a{
+    padding: 0 2rem
+}
+
+.footer > a > i{
+    font-size: 3rem;
+}
+
+.footer-header{
+    font-weight: 600
+}
+
+.footer > a > i:hover{
+    color: #383838 
+}
