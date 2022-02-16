@@ -14,8 +14,8 @@
 
     <link rel="stylesheet" href="https://rapidui.netlify.app/styles/main.css" />
 
-    <link rel="stylesheet" href="./rules.css" />
-    <link rel="stylesheet" href="../../index.css" />
+    <link rel="stylesheet" href="../../../index.css" />
+    <link rel="stylesheet" href="../quizzes.css" />
 
     <title>Rapid Quiz</title>
   </head>
@@ -23,7 +23,7 @@
     <div class="page-layout">
       <nav class="quiz-navbar">
         <div class="logo">
-          <a href="../../index.html" class="quiz-navbar-text">
+          <a href="#" class="quiz-navbar-text">
             <span class="font-family-kaushan">R</span>apid
             <span class="font-family-kaushan">Q</span>uiz</a
           >
@@ -31,21 +31,42 @@
       </nav>
 
       <!-- --- main body ---- -->
-      <main class="rules-main-container">
-        <div class="card-vertical rules-card">
-          <img src="../../assets/img/rules.png" alt="" />
-          <h3 class="justify-center">Rules to be followed</h3>
-          <ul class="rules-main">
-            <li class="rule">💪 &nbsp You will face 5 Questions</li>
-            <li class="rule">
-              💎 &nbsp The right answer will give you 2 points
-            </li>
-            <li class="rule">😄 &nbsp There is no negative marking</li>
-            <li class="rule">🏆 &nbsp Score atleast 70% to win.</li>
-          </ul>
-          <a href="../quizzes/cosmos/cosmos.html">
-            <button class="btn btn-primary start-btn">Start Quiz</button></a
-          >
+      <main class="quiz-container">
+        <div class="card-vertical ques">
+          <h2 class="justify-center">Cosmos</h2>
+          <div class="ques-and-score">
+            <div class="count">
+              <p class="tag">Question: &nbsp</p>
+              <p class="tag-value">4/5</p>
+            </div>
+            <div class="count">
+              <p class="tag">Score: &nbsp</p>
+              <p class="tag-value">8</p>
+            </div>
+          </div>
+          <div class="ques-and-ans mt-2">
+            <h3>Cosmos is mainly concerned with :</h3>
+            <div class="option-wrapper mb-2">
+              <input type="radio" id="option1" />
+              <label for="option1" class="option option-wrong"
+                >Formation of Planets</label
+              >
+              <input type="radio" id="option1" />
+              <label for="option1" class="option">Formation of Stars</label>
+              <input type="radio" id="option1" />
+              <label for="option1" class="option option-correct"
+                >Formation of Universe</label
+              >
+              <input type="radio" id="option1" />
+              <label for="option1" class="option"
+                >Formation of Black holes</label
+              >
+            </div>
+          </div>
+
+          <a href="../../result/result.html"
+            ><button class="btn btn-primary">View Result</button>
+          </a>
         </div>
       </main>
 
