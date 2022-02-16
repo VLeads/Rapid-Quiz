@@ -15,10 +15,6 @@ a{
     text-decoration: none;
 }
 
-.page-layout{
-}
-
-
 .quiz-navbar{
     width: 80vw;
     padding: 5rem;
@@ -31,6 +27,7 @@ a{
 .logo{
     position: relative;
 }
+
 .quiz-navbar-text:after{
     position: absolute;
     content:"";
