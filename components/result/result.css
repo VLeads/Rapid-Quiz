@@ -1,0 +1,12 @@
+.quiz-container{
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem
+}
+
+.trophy-img{
+    width: 8rem;
+    height: 15rem;
+    display: flex;
+    margin: auto;
+}

@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto&display=swap');
 
+:root{
+    --light-background: #f4f3fc;
+    --light-background-hover: #e5e2f7;
+    --white: #f8f8f8;
+    --red: #e62d2d;
+}
+
 .font-family-kaushan{
     font-family: 'Kaushan Script', cursive;
     color: var(--primary-color)
@@ -17,7 +24,7 @@ a{
 
 .quiz-navbar{
     width: 80vw;
-    padding: 5rem;
+    padding: 4rem;
 }
 
 .quiz-navbar-text{
