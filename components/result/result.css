@@ -10,3 +10,9 @@
     display: flex;
     margin: auto;
 }
+
+.home-btn{
+    display: flex;
+    margin: auto;
+    margin-bottom: 3rem;
+}
